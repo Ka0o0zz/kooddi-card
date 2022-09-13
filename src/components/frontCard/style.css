@@ -1,0 +1,105 @@
+
+  .container-front-card{
+    display: grid;
+  }
+  
+  .ticket{
+    width: 520px;
+    box-shadow: 4px 4px  4px 7px #3d3d3d29;
+    aspect-ratio: 18/9;
+    border-radius: 21px;
+    position: relative;
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+    overflow: visible;
+  }
+  .ticket:hover{
+    transition: none;
+  }
+  
+  .bg{
+    top:0;
+    background: rgb(29,15,106);
+    background: linear-gradient(140deg, rgba(29,15,106,1) 41%, rgba(104,73,230,1) 100%);
+    position: absolute;
+    filter: blur(20%);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+  }
+  h1{
+    padding: 50px 20px 20px 20px;
+    margin: 0;
+  }
+  h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  .wrapper{
+    perspective: 1000px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  h6{
+    font-size: 16px;
+    margin: 0;
+    margin-right: 80px;
+  }
+  h4{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+  }
+  h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .container-date{
+    width: 100%;
+    margin-left: 60%;
+  }
+  .container-name{
+    width: 94%;
+    justify-content: space-between;
+    padding: 20px 20px 30px 20px ;
+  }
+  img{
+    width: 120px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .align{
+    align-items: center;
+  }
+
+  .band-black{
+    width: 100%;
+    height: 70px;
+    background: black;
+  }
+  .padding{
+    padding-top: 30px;
+  }
+  .input-card{
+    margin-top: 20px;
+    width: 90%;
+    height: 30px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+  }
+  p{
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+  }
